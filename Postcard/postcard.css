@@ -1,0 +1,64 @@
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 5px;
+}
+
+body {
+	background: black;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+h1 {
+	font-family: "Sigmar One", cursive;
+	text-align: justify;
+	margin: 0px;
+	width: 100%;
+}
+
+.postcard-header > img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+.body-left > p {
+	font-family: "Sigmar One", cursive;
+	font-size: 11px;
+	text-align: justify;
+	margin-top: 0px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.body-left {
+	width: 50%;
+}
+
+.body-right {
+	width: 50%;
+}
+
+.body-right > input {
+	width: 90%;
+	padding: 5px;
+	margin: 0px;
+	border:none;
+	border-bottom: 2px solid rgba(2, 2, 2, 0.596);
+}
+
+.postcard-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.postcard-footer > button {
+	background-color: rgba(197, 197, 197, 0.74);
+}

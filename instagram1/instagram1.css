@@ -1,0 +1,49 @@
+body{background-color: rgb(216, 212, 212);}
+
+.titulo { 
+    font-family: 'Lobster', cursive;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.cuerpo{
+    background-color: white;
+    width: 600px;
+    height:auto;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cuerpo > img {
+    width:600px;
+    height:380px;
+    overflow:hidden;
+}
+
+.tope {
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    
+}
+
+.tope > h2 {
+    width: 100%;
+    margin-top: 5mm ;
+}
+
+.tope > h3 {
+    margin-top: 5mm;
+    color: rgb(216, 212, 212);
+}
+
+.texto {
+    font-family: 'ABeeZee', sans-serif;
+    text-align: justify;
+    margin-bottom: 10mm;
+    padding-bottom: 5px;
+}

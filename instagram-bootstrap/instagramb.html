@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Instagram</title>
+</head>
+
+<body>
+    <!-- Nav Bar superior (inicio)  -->
+    <!-- Logo instagram + Titulo instagram (inicio) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-ligh">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-2 " href="#">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0zNTIsMEgxNjBDNzEuNjQ4LDAsMCw3MS42NDgsMCwxNjB2MTkyYzAsODguMzUyLDcxLjY0OCwxNjAsMTYwLDE2MGgxOTJjODguMzUyLDAsMTYwLTcxLjY0OCwxNjAtMTYwVjE2MA0KCQkJQzUxMiw3MS42NDgsNDQwLjM1MiwwLDM1MiwweiBNNDY0LDM1MmMwLDYxLjc2LTUwLjI0LDExMi0xMTIsMTEySDE2MGMtNjEuNzYsMC0xMTItNTAuMjQtMTEyLTExMlYxNjBDNDgsOTguMjQsOTguMjQsNDgsMTYwLDQ4DQoJCQloMTkyYzYxLjc2LDAsMTEyLDUwLjI0LDExMiwxMTJWMzUyeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjU2LDEyOGMtNzAuNjg4LDAtMTI4LDU3LjMxMi0xMjgsMTI4czU3LjMxMiwxMjgsMTI4LDEyOHMxMjgtNTcuMzEyLDEyOC0xMjhTMzI2LjY4OCwxMjgsMjU2LDEyOHogTTI1NiwzMzYNCgkJCWMtNDQuMDk2LDAtODAtMzUuOTA0LTgwLTgwYzAtNDQuMTI4LDM1LjkwNC04MCw4MC04MHM4MCwzNS44NzIsODAsODBDMzM2LDMwMC4wOTYsMzAwLjA5NiwzMzYsMjU2LDMzNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPGNpcmNsZSBjeD0iMzkzLjYiIGN5PSIxMTguNCIgcj0iMTcuMDU2Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+                    width="30" height="24">
+            </a>
+            <a class="navbar-brand d-none d-sm-block me-auto  " href="#">Instagram</a>
+
+            <!-- Logo instagram + Titulo instagram (final) -->
+            <!-- Boton crear Post + Pop up (inicio) -->
+
+            <div class="navbar-brand d-none d-sm-block ">
+                <button type="button" class="btn btn-success btn-sm rounded-start" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Create New Post
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content ">
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="ms-3">
+                                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjM2LjE3NHB4IiBoZWlnaHQ9IjM2LjE3NHB4IiB2aWV3Qm94PSIwIDAgMzYuMTc0IDM2LjE3NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzYuMTc0IDM2LjE3NDsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTIzLjkyMSwyMC41MjhjMCwzLjIxNy0yLjYxNyw1LjgzNC01LjgzNCw1LjgzNHMtNS44MzMtMi42MTctNS44MzMtNS44MzRzMi42MTYtNS44MzQsNS44MzMtNS44MzQNCgkJUzIzLjkyMSwxNy4zMTIsMjMuOTIxLDIwLjUyOHogTTM2LjE3NCwxMi4yNDR2MTYuNTdjMCwyLjIwOS0xLjc5MSw0LTQsNEg0Yy0yLjIwOSwwLTQtMS43OTEtNC00di0xNi41N2MwLTIuMjA5LDEuNzkxLTQsNC00aDQuOTINCgkJVjYuODZjMC0xLjkzMywxLjU2Ni0zLjUsMy41LTMuNWgxMS4zMzRjMS45MzQsMCwzLjUsMS41NjcsMy41LDMuNXYxLjM4M2g0LjkyQzM0LjM4Myw4LjI0NCwzNi4xNzQsMTAuMDM1LDM2LjE3NCwxMi4yNDR6DQoJCSBNMjYuOTIxLDIwLjUyOGMwLTQuODcxLTMuOTYzLTguODM0LTguODM0LTguODM0Yy00Ljg3LDAtOC44MzMsMy45NjMtOC44MzMsOC44MzRzMy45NjMsOC44MzQsOC44MzMsOC44MzQNCgkJQzIyLjk1OCwyOS4zNjIsMjYuOTIxLDI1LjM5OSwyNi45MjEsMjAuNTI4eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+                                    alt="" width="30" height="24" />
+                                <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY4MnB0IiB2aWV3Qm94PSItMTE5IC0yMSA2ODIgNjgyLjY2NjY5IiB3aWR0aD0iNjgycHQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIxNi4yMTA5MzggMGMtMTIyLjY2NDA2MyAwLTIyMi40NjA5MzggOTkuNzk2ODc1LTIyMi40NjA5MzggMjIyLjQ2MDkzOCAwIDE1NC4xNzU3ODEgMjIyLjY3OTY4OCA0MTcuNTM5MDYyIDIyMi42Nzk2ODggNDE3LjUzOTA2MnMyMjIuMjQyMTg3LTI3MC45NDUzMTIgMjIyLjI0MjE4Ny00MTcuNTM5MDYyYzAtMTIyLjY2NDA2My05OS43OTI5NjktMjIyLjQ2MDkzOC0yMjIuNDYwOTM3LTIyMi40NjA5Mzh6bTY3LjEyMTA5MyAyODcuNTk3NjU2Yy0xOC41MDc4MTIgMTguNTAzOTA2LTQyLjgxMjUgMjcuNzU3ODEzLTY3LjEyMTA5MyAyNy43NTc4MTMtMjQuMzA0Njg4IDAtNDguNjE3MTg4LTkuMjUzOTA3LTY3LjExNzE4OC0yNy43NTc4MTMtMzcuMDExNzE5LTM3LjAwNzgxMi0zNy4wMTE3MTktOTcuMjI2NTYyIDAtMTM0LjIzODI4MSAxNy45MjE4NzUtMTcuOTI5Njg3IDQxLjc2MTcxOS0yNy44MDQ2ODcgNjcuMTE3MTg4LTI3LjgwNDY4NyAyNS4zNTU0NjggMCA0OS4xOTE0MDYgOS44Nzg5MDYgNjcuMTIxMDkzIDI3LjgwNDY4NyAzNy4wMTE3MTkgMzcuMDExNzE5IDM3LjAxMTcxOSA5Ny4yMzA0NjkgMCAxMzQuMjM4Mjgxem0wIDAiLz48L3N2Zz4="
+                                    alt="" width="30" height="24" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Boton crear Post + Pop up (final)-->
+            <!-- Boton setting + dropdown (inicio) -->
+            <div class="navbar-brand ">
+                <div class="btn-group ">
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle border-0 me-5 bg-light "
+                        data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                        <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im00OTkuOTUzMTI1IDE5Ny43MDMxMjUtMzkuMzUxNTYzLTguNTU0Njg3Yy0zLjQyMTg3NC0xMC40NzY1NjMtNy42NjAxNTYtMjAuNjk1MzEzLTEyLjY2NDA2Mi0zMC41MzkwNjNsMjEuNzg1MTU2LTMzLjg4NjcxOWMzLjg5MDYyNS02LjA1NDY4NyAzLjAzNTE1Ni0xNC4wMDM5MDYtMi4wNTA3ODEtMTkuMDg5ODQ0bC02MS4zMDQ2ODctNjEuMzA0Njg3Yy01LjA4NTkzOC01LjA4NTkzNy0xMy4wMzUxNTctNS45NDE0MDYtMTkuMDg5ODQ0LTIuMDUwNzgxbC0zMy44ODY3MTkgMjEuNzg1MTU2Yy05Ljg0Mzc1LTUuMDAzOTA2LTIwLjA2MjUtOS4yNDIxODgtMzAuNTM5MDYzLTEyLjY2NDA2MmwtOC41NTQ2ODctMzkuMzUxNTYzYy0xLjUyNzM0NC03LjAzMTI1LTcuNzUzOTA2LTEyLjA0Njg3NS0xNC45NDkyMTktMTIuMDQ2ODc1aC04Ni42OTUzMTJjLTcuMTk1MzEzIDAtMTMuNDIxODc1IDUuMDE1NjI1LTE0Ljk0OTIxOSAxMi4wNDY4NzVsLTguNTU0Njg3IDM5LjM1MTU2M2MtMTAuNDc2NTYzIDMuNDIxODc0LTIwLjY5NTMxMyA3LjY2MDE1Ni0zMC41MzkwNjMgMTIuNjY0MDYybC0zMy44ODY3MTktMjEuNzg1MTU2Yy02LjA1NDY4Ny0zLjg5MDYyNS0xNC4wMDM5MDYtMy4wMzUxNTYtMTkuMDg5ODQ0IDIuMDUwNzgxbC02MS4zMDQ2ODcgNjEuMzA0Njg3Yy01LjA4NTkzNyA1LjA4NTkzOC01Ljk0MTQwNiAxMy4wMzUxNTctMi4wNTA3ODEgMTkuMDg5ODQ0bDIxLjc4NTE1NiAzMy44ODY3MTljLTUuMDAzOTA2IDkuODQzNzUtOS4yNDIxODggMjAuMDYyNS0xMi42NjQwNjIgMzAuNTM5MDYzbC0zOS4zNTE1NjMgOC41NTQ2ODdjLTcuMDMxMjUgMS41MzEyNS0xMi4wNDY4NzUgNy43NTM5MDYtMTIuMDQ2ODc1IDE0Ljk0OTIxOXY4Ni42OTUzMTJjMCA3LjE5NTMxMyA1LjAxNTYyNSAxMy40MTc5NjkgMTIuMDQ2ODc1IDE0Ljk0OTIxOWwzOS4zNTE1NjMgOC41NTQ2ODdjMy40MjE4NzQgMTAuNDc2NTYzIDcuNjYwMTU2IDIwLjY5NTMxMyAxMi42NjQwNjIgMzAuNTM5MDYzbC0yMS43ODUxNTYgMzMuODg2NzE5Yy0zLjg5MDYyNSA2LjA1NDY4Ny0zLjAzNTE1NiAxNC4wMDM5MDYgMi4wNTA3ODEgMTkuMDg5ODQ0bDYxLjMwNDY4NyA2MS4zMDQ2ODdjNS4wODU5MzggNS4wODU5MzcgMTMuMDM1MTU3IDUuOTQxNDA2IDE5LjA4OTg0NCAyLjA1MDc4MWwzMy44ODY3MTktMjEuNzg1MTU2YzkuODQzNzUgNS4wMDM5MDYgMjAuMDYyNSA5LjI0MjE4OCAzMC41MzkwNjMgMTIuNjY0MDYybDguNTU0Njg3IDM5LjM1MTU2M2MxLjUyNzM0NCA3LjAzMTI1IDcuNzUzOTA2IDEyLjA0Njg3NSAxNC45NDkyMTkgMTIuMDQ2ODc1aDg2LjY5NTMxMmM3LjE5NTMxMyAwIDEzLjQyMTg3NS01LjAxNTYyNSAxNC45NDkyMTktMTIuMDQ2ODc1bDguNTU0Njg3LTM5LjM1MTU2M2MxMC40NzY1NjMtMy40MjE4NzQgMjAuNjk1MzEzLTcuNjYwMTU2IDMwLjUzOTA2My0xMi42NjQwNjJsMzMuODg2NzE5IDIxLjc4NTE1NmM2LjA1NDY4NyAzLjg5MDYyNSAxNC4wMDM5MDYgMy4wMzkwNjMgMTkuMDg5ODQ0LTIuMDUwNzgxbDYxLjMwNDY4Ny02MS4zMDQ2ODdjNS4wODU5MzctNS4wODU5MzggNS45NDE0MDYtMTMuMDM1MTU3IDIuMDUwNzgxLTE5LjA4OTg0NGwtMjEuNzg1MTU2LTMzLjg4NjcxOWM1LjAwMzkwNi05Ljg0Mzc1IDkuMjQyMTg4LTIwLjA2MjUgMTIuNjY0MDYyLTMwLjUzOTA2M2wzOS4zNTE1NjMtOC41NTQ2ODdjNy4wMzEyNS0xLjUzMTI1IDEyLjA0Njg3NS03Ljc1MzkwNiAxMi4wNDY4NzUtMTQuOTQ5MjE5di04Ni42OTUzMTJjMC03LjE5NTMxMy01LjAxNTYyNS0xMy40MTc5NjktMTIuMDQ2ODc1LTE0Ljk0OTIxOXptLTE1Mi4xNjAxNTYgNTguMjk2ODc1YzAgNTAuNjEzMjgxLTQxLjE3OTY4OCA5MS43OTI5NjktOTEuNzkyOTY5IDkxLjc5Mjk2OXMtOTEuNzkyOTY5LTQxLjE3OTY4OC05MS43OTI5NjktOTEuNzkyOTY5IDQxLjE3OTY4OC05MS43OTI5NjkgOTEuNzkyOTY5LTkxLjc5Mjk2OSA5MS43OTI5NjkgNDEuMTc5Njg4IDkxLjc5Mjk2OSA5MS43OTI5Njl6bTAgMCIvPjwvc3ZnPg=="
+                            alt="" width="30" height="24" />
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-sm-end">
+                        <li><button class="dropdown-item" type="button">Action</button></li>
+                        <li><button class="dropdown-item" type="button">Another action</button></li>
+                        <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Boton setting + dropdown (Final) -->
+        </div>
+
+    </nav>
+    <!-- Nav Bar superior (Final)  -->
+    <!-- Nav bar menu Pills + Contenido (inicio) -->
+    <nav class="navbar-expand-md">
+        <!-- Botones para las vistas mosaico y card (inicio) -->
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active col-6" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true"><img
+                    src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggZD0ibTI3MSAwaC0yNjMuNWMtNC4xNDMgMC03LjUgMy4zNTgtNy41IDcuNXY2MGMwIDQuMTQyIDMuMzU3IDcuNSA3LjUgNy41aDI2My41YzQuMTQzIDAgNy41LTMuMzU4IDcuNS03LjV2LTYwYzAtNC4xNDItMy4zNTctNy41LTcuNS03LjV6bS03LjUgNjBoLTI0OC41di00NWgyNDguNXoiLz48cGF0aCBkPSJtMjcxIDkwaC0yNjMuNWMtNC4xNDMgMC03LjUgMy4zNTgtNy41IDcuNXYyMjdjMCA0LjE0MiAzLjM1NyA3LjUgNy41IDcuNWgyNjMuNWM0LjE0MyAwIDcuNS0zLjM1OCA3LjUtNy41di0xMzdjMC00LjE0Mi0zLjM1Ny03LjUtNy41LTcuNXMtNy41IDMuMzU4LTcuNSA3LjV2MTI5LjVoLTI0OC41di0yMTJoMjQ4LjV2NTIuNWMwIDQuMTQyIDMuMzU3IDcuNSA3LjUgNy41czcuNS0zLjM1OCA3LjUtNy41di02MGMwLTQuMTQyLTMuMzU3LTcuNS03LjUtNy41eiIvPjxwYXRoIGQ9Im0yNzEgMzQ3aC0yNjMuNWMtNC4xNDMgMC03LjUgMy4zNTgtNy41IDcuNXYxNTBjMCA0LjE0MiAzLjM1NyA3LjUgNy41IDcuNWgyNjMuNWM0LjE0MyAwIDcuNS0zLjM1OCA3LjUtNy41di0xNTBjMC00LjE0Mi0zLjM1Ny03LjUtNy41LTcuNXptLTcuNSAxNTBoLTI0OC41di0xMzVoMjQ4LjV6Ii8+PHBhdGggZD0ibTUwNC41IDBoLTExMy41Yy00LjE0MyAwLTcuNSAzLjM1OC03LjUgNy41djI4N2MwIDQuMTQyIDMuMzU3IDcuNSA3LjUgNy41aDExMy41YzQuMTQzIDAgNy41LTMuMzU4IDcuNS03LjV2LTI4N2MwLTQuMTQyLTMuMzU3LTcuNS03LjUtNy41em0tNy41IDI4N2gtOTguNXYtMjcyaDk4LjV6Ii8+PHBhdGggZD0ibTM2MSAwaC02MGMtNC4xNDMgMC03LjUgMy4zNTgtNy41IDcuNXYxMjBjMCA0LjE0MiAzLjM1NyA3LjUgNy41IDcuNWg2MGM0LjE0MyAwIDcuNS0zLjM1OCA3LjUtNy41di0xMjBjMC00LjE0Mi0zLjM1Ny03LjUtNy41LTcuNXptLTcuNSAxMjBoLTQ1di0xMDVoNDV6Ii8+PHBhdGggZD0ibTUwNC41IDMxN2gtMTEzLjVjLTQuMTQzIDAtNy41IDMuMzU4LTcuNSA3LjV2MTIwYzAgNC4xNDIgMy4zNTcgNy41IDcuNSA3LjVoMTEzLjVjNC4xNDMgMCA3LjUtMy4zNTggNy41LTcuNXYtMTIwYzAtNC4xNDItMy4zNTctNy41LTcuNS03LjV6bS03LjUgMTIwaC05OC41di0xMDVoOTguNXoiLz48cGF0aCBkPSJtNTA0LjUgNDY3aC0xMTMuNWMtNC4xNDMgMC03LjUgMy4zNTgtNy41IDcuNXYzMGMwIDQuMTQyIDMuMzU3IDcuNSA3LjUgNy41aDExMy41YzQuMTQzIDAgNy41LTMuMzU4IDcuNS03LjV2LTMwYzAtNC4xNDItMy4zNTctNy41LTcuNS03LjV6bS03LjUgMzBoLTk4LjV2LTE1aDk4LjV6Ii8+PHBhdGggZD0ibTM2MSAxNTBoLTYwYy00LjE0MyAwLTcuNSAzLjM1OC03LjUgNy41djE5N2MwIDQuMTQyIDMuMzU3IDcuNSA3LjUgNy41aDYwYzQuMTQzIDAgNy41LTMuMzU4IDcuNS03LjV2LTE5N2MwLTQuMTQyLTMuMzU3LTcuNS03LjUtNy41em0tNy41IDE5N2gtNDV2LTE4Mmg0NXoiLz48cGF0aCBkPSJtMzYxIDM3N2gtNjBjLTQuMTQzIDAtNy41IDMuMzU4LTcuNSA3LjV2MTIwYzAgNC4xNDIgMy4zNTcgNy41IDcuNSA3LjVoNjBjNC4xNDMgMCA3LjUtMy4zNTggNy41LTcuNXYtMTIwYzAtNC4xNDItMy4zNTctNy41LTcuNS03LjV6bS03LjUgMTIwaC00NXYtMTA1aDQ1eiIvPjwvZz48L3N2Zz4="
+                    width="15" height="15" /></button>
+            <button class="nav-link col-6" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><img
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik00OTcsNzZIMTVDNi43MDksNzYsMCw4Mi43MDksMCw5MXYzMzBjMCw4LjI5MSw2LjcwOSwxNSwxNSwxNWg0ODJjOC4yOTEsMCwxNS02LjcwOSwxNS0xNVY5MQ0KCQkJQzUxMiw4Mi43MDksNTA1LjI5MSw3Niw0OTcsNzZ6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+                    alt="" width="15" height="15" /></button>
+        </div>
+        <!-- Botones para las vistas mosaico y card (Final) -->
+    </nav>
+    <!-- Contenido de las vistas (inicio) -->
+    <div class="tab-content" id="nav-tabContent">
+        <!-- menu foto + texto Card (inicio) -->
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="container-fluid"></div>
+            <div class="card shadow m-5 mx-auto " style="width:60%" ;>
+                <div class="row p-2 d-flex">
+                    <h3> My First Photo</h3>
+                    <small class="text-muted d-flex justify-content-end">23/11</small>
+                </div>
+                <div class="card-img-top">
+                    <img src="https://www.caracteristicas.co/wp-content/uploads/2017/02/perro-3-e1561679226953.jpg"
+                        class="rounded mx-auto d-block " width="100%" alt="...">
+                </div>
+                <div class="p-2 d-flex">
+                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik00NzQuNjQ0LDc0LjI3QzQ0OS4zOTEsNDUuNjE2LDQxNC4zNTgsMjkuODM2LDM3NiwyOS44MzZjLTUzLjk0OCwwLTg4LjEwMywzMi4yMi0xMDcuMjU1LDU5LjI1DQoJCQljLTQuOTY5LDcuMDE0LTkuMTk2LDE0LjA0Ny0xMi43NDUsMjAuNjY1Yy0zLjU0OS02LjYxOC03Ljc3NS0xMy42NTEtMTIuNzQ1LTIwLjY2NWMtMTkuMTUyLTI3LjAzLTUzLjMwNy01OS4yNS0xMDcuMjU1LTU5LjI1DQoJCQljLTM4LjM1OCwwLTczLjM5MSwxNS43ODEtOTguNjQ1LDQ0LjQzNUMxMy4yNjcsMTAxLjYwNSwwLDEzOC4yMTMsMCwxNzcuMzUxYzAsNDIuNjAzLDE2LjYzMyw4Mi4yMjgsNTIuMzQ1LDEyNC43DQoJCQljMzEuOTE3LDM3Ljk2LDc3LjgzNCw3Ny4wODgsMTMxLjAwNSwxMjIuMzk3YzE5LjgxMywxNi44ODQsNDAuMzAyLDM0LjM0NCw2Mi4xMTUsNTMuNDI5bDAuNjU1LDAuNTc0DQoJCQljMi44MjgsMi40NzYsNi4zNTQsMy43MTMsOS44OCwzLjcxM3M3LjA1Mi0xLjIzOCw5Ljg4LTMuNzEzbDAuNjU1LTAuNTc0YzIxLjgxMy0xOS4wODUsNDIuMzAyLTM2LjU0NCw2Mi4xMTgtNTMuNDMxDQoJCQljNTMuMTY4LTQ1LjMwNiw5OS4wODUtODQuNDM0LDEzMS4wMDItMTIyLjM5NUM0OTUuMzY3LDI1OS41NzgsNTEyLDIxOS45NTQsNTEyLDE3Ny4zNTENCgkJCUM1MTIsMTM4LjIxMyw0OTguNzMzLDEwMS42MDUsNDc0LjY0NCw3NC4yN3ogTTMwOS4xOTMsNDAxLjYxNGMtMTcuMDgsMTQuNTU0LTM0LjY1OCwyOS41MzMtNTMuMTkzLDQ1LjY0Ng0KCQkJYy0xOC41MzQtMTYuMTExLTM2LjExMy0zMS4wOTEtNTMuMTk2LTQ1LjY0OEM5OC43NDUsMzEyLjkzOSwzMCwyNTQuMzU4LDMwLDE3Ny4zNTFjMC0zMS44MywxMC42MDUtNjEuMzk0LDI5Ljg2Mi04My4yNDUNCgkJCUM3OS4zNCw3Mi4wMDcsMTA2LjM3OSw1OS44MzYsMTM2LDU5LjgzNmM0MS4xMjksMCw2Ny43MTYsMjUuMzM4LDgyLjc3Niw0Ni41OTRjMTMuNTA5LDE5LjA2NCwyMC41NTgsMzguMjgyLDIyLjk2Miw0NS42NTkNCgkJCWMyLjAxMSw2LjE3NSw3Ljc2OCwxMC4zNTQsMTQuMjYyLDEwLjM1NGM2LjQ5NCwwLDEyLjI1MS00LjE3OSwxNC4yNjItMTAuMzU0YzIuNDA0LTcuMzc3LDkuNDUzLTI2LjU5NSwyMi45NjItNDUuNjYNCgkJCWMxNS4wNi0yMS4yNTUsNDEuNjQ3LTQ2LjU5Myw4Mi43NzYtNDYuNTkzYzI5LjYyMSwwLDU2LjY2LDEyLjE3MSw3Ni4xMzcsMzQuMjdDNDcxLjM5NSwxMTUuOTU3LDQ4MiwxNDUuNTIxLDQ4MiwxNzcuMzUxDQoJCQlDNDgyLDI1NC4zNTgsNDEzLjI1NSwzMTIuOTM5LDMwOS4xOTMsNDAxLjYxNHoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
+                        class="pe-3" width="40" height="40" />
+                    <p class="pt-2">23 Likes</p>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsam
+                        eaque
+                        officia sequi, enim blanditiis! Unde quia nobis consectetur! Asperiores, corrupti ad!
+                        Recusandae unde ipsum odit fugiat tempora placeat vitae?</p>
+                </div>
+            </div>
+        </div>
+        <!-- menu foto + texto Card (Final) -->
+        <!-- Vista mosaico fotos (inicio) -->
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div>
+                <div class="album py-5 bg-light">
+                    <div class="container">
+
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d"
+                                        alt="" width="100%" height="225">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://i.guim.co.uk/img/media/684c9d087dab923db1ce4057903f03293b07deac/205_132_1915_1150/master/1915.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=14a95b5026c1567b823629ba35c40aa0"
+                                        alt="" width="100%" height="225">
+
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://ggsc.s3.amazonaws.com/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg"
+                                        alt="" width="100%" height="225">
+
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://media.nature.com/lw800/magazine-assets/d41586-020-01430-5/d41586-020-01430-5_17977552.jpg"
+                                        alt="" width="100%" height="225">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZ7MufAimtXdYSmxsvaWRSruBeKQCyNBAFg&usqp=CAU"
+                                        alt="" width="100%" height="225">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*"
+                                        alt="" width="100%" height="225">
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/dog_cool_summer_slideshow/1800x1200_dog_cool_summer_other.jpg?resize=750px:*"
+                                        alt="" width="100%" height="225">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg"
+                                        alt="" width="100%" height="225">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head-768.jpg"
+                                        alt="" width="100%" height="225">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Vista mosaico fotos (Final) -->
+    </div>
+    <!-- Contenido de las vistas (Final) -->
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
