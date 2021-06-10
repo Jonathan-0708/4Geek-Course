@@ -1,13 +1,19 @@
 .postcard {
+	display: flex;
+	flex-direction: column;
 	background: white;
-	width: 400px;
-	height: 300px;
+	width: 360px;
+	height: 270px;
 	margin: auto;
-	padding: 5px;
+	padding: 15px;
+	margin-top: 150px;
+	
+	
 }
 
 body {
 	background: black;
+
 }
 
 .postcard-header {
@@ -15,8 +21,9 @@ body {
 }
 
 h1 {
-	font-family: "Sigmar One", cursive;
+	font-family: 'Handlee', cursive;
 	text-align: justify;
+	font-size: 30px;
 	margin: 0px;
 	width: 100%;
 }
@@ -30,8 +37,8 @@ h1 {
 	display: flex;
 }
 .body-left > p {
-	font-family: "Sigmar One", cursive;
-	font-size: 11px;
+	font-family: 'Handlee', cursive;
+	font-size: 14px;
 	text-align: justify;
 	margin-top: 0px;
 	margin-right: 10px;
@@ -51,7 +58,7 @@ h1 {
 	padding: 5px;
 	margin: 0px;
 	border:none;
-	border-bottom: 2px solid rgba(2, 2, 2, 0.596);
+	border-bottom: 2px solid rgba(102, 100, 100, 0.596);
 }
 
 .postcard-footer {
@@ -62,3 +69,5 @@ h1 {
 .postcard-footer > button {
 	background-color: rgba(197, 197, 197, 0.74);
 }
+
+input {font-family: 'Handlee', cursive;};
